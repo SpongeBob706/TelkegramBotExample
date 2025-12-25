@@ -1,0 +1,29 @@
+﻿{
+  "$schema": "https://json.schemastore.org/launchsettings.json",
+  "profiles": {
+    "http": {
+      "commandName": "Project",
+      "dotnetRunMessages": true,
+      "launchBrowser": true,
+      "applicationUrl": "http://localhost:5244",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development",
+        "TOKEN": "836*******M",
+        "DATA_STORAGE_FOLDER": "D:\\temp\\bin\\Debug\\net9.0",
+        "ADMIN": "2"
+      }
+    },
+    "https": {
+      "commandName": "Project",
+      "dotnetRunMessages": true,
+      "launchBrowser": true,
+      "applicationUrl": "https://localhost:7197;http://localhost:5244",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development",
+        "TOKEN": "8369*****IdbM",
+        "DATA_STORAGE_FOLDER": "D:\\temp\\bin\\Debug\\net9.0",
+        "ADMIN": "2"
+      }
+    }
+  }
+}
